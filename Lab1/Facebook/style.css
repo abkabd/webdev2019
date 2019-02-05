@@ -1,0 +1,328 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#main{
+    min-width: 1000px;
+}
+#uniq{
+    position: absolute;
+    border: 0px solid black;
+    z-index: 0;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 12%;
+    background-color: #3b5998;
+    background-color: linear-gradient(#4e69a2,#3b5998,50%);
+}
+.middle{
+    border: 0px solid whitesmoke; 
+    position: absolute;
+    background-color: whitesmoke;
+}
+
+.middle{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    border: 0px solid yellow;
+    left: 0px;
+}
+.picture-side{
+    left: 5%;
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    margin-right: 5%;
+    height: 100%;
+    border: 0px solid red;
+}
+.form-side{
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    margin-left: 3%;
+    height: 100%;
+    border: 0px solid red;
+}
+
+input {
+    border: 0px;
+}
+.picture-text{
+    margin-top: 5%;
+    position: relative;
+    border: 0px solid black;
+    display: block;
+}
+.picture-text p{
+    font-size: 20px;
+}
+.main-picture{
+    position:relative;
+    display: block;
+    border: 0px solid black;
+}
+#pct{
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}
+.picture-text p{
+    font-weight: 900;
+    font-size: 18px;
+    color: rgb(0,0,170);
+}
+.form-title{
+    position:relative;
+    display: block;
+    border: 0px solid black;
+    padding: 0px;
+    margin: 0%;
+}
+.form-title h1{
+    color: rgb(0,0,70);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-title p{
+    font-size: 19px;
+    color: rgb(0,0,70);
+}
+.name-surname{
+    position: relative;
+    border: 0px solid black;
+    display: block;
+}
+.name-surname #name{
+    position: relative;
+    display: inline-block;
+    width: 48%;
+    margin-right: 1%;
+    border: 0px solid black;
+}
+.name-surname #surname{
+    position: relative;
+    display: inline-block;
+    margin-left: 1%;
+    width: 48%;
+    border: 0px solid black;
+}
+#name-block{
+    font-size: 20px;
+    padding: 8px 10px;
+    margin-right: 0px;
+    border: 0px solid #bdc7d8;
+    border-radius: 5px;
+    height: 20px;
+}
+#surname-block{
+    position: relative;
+    margin-left: 0px;
+    font-size: 20px;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+#phone-email{
+    position: relative;
+    display: block;
+    font-size: 18px;
+    border: 0px solid black;
+}
+#address-block{
+    position: relative;
+    height: 100%;
+    width: 95%;
+    margin-top: 2%;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 8px 10px;
+    border-color: #bdc7d8;
+}
+#new-pass{
+    position: relative;
+    display: block;
+    margin-top: 2%;
+    font-size: 18px;
+}
+#password-block{
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 8px 10px;
+    width: 95%;
+    height: 100%;
+    border-color: #bdc7d8;
+}
+.birthday{
+    margin-top: 2%;
+    position: relative;
+    border: 0px solid black;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    display: block;
+    width: 100%;
+}
+.date-change{
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    border: 0px solid black;
+}
+#day{
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-appearance: menulist;
+    align-items: center;
+    white-space: pre;
+    background-color:white;
+    cursor: default;
+    border: 1px solid #bdc7d8;
+    word-spacing: normal;
+    letter-spacing: normal;
+    margin: 0em;
+    text-rendering: auto;
+    font-weight: 400;
+    width: 30%;
+}
+
+#month{
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    width: 35%;
+    box-sizing: border-box;
+    -webkit-appearance: menulist;
+    align-items: center;
+    white-space: pre;
+    background-color:white;
+    cursor: default;
+    border: 1px solid #bdc7d8;
+    word-spacing: normal;
+    letter-spacing: normal;
+    margin: 0em;
+    text-rendering: auto;
+    font-weight: 400;
+}
+#year{
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    width: 30%;
+    box-sizing: border-box;
+    -webkit-appearance: menulist;
+    align-items: center;
+    white-space: pre;
+    background-color:white;
+    cursor: default;
+    border: 1px solid #bdc7d8;
+    word-spacing: normal;
+    letter-spacing: normal;
+    margin: 0em;
+    text-rendering: auto;
+    font-weight: 400;
+}
+#lul{
+    display: inline-block;
+    font-size: 12px;
+    border: 1px soid black;
+}
+#lul:after{
+    cursor: pointer;
+}
+.sexx{
+    border: 0px solid black;
+}
+.female{
+    margin-left: 1%;
+    margin-right: 4%;
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    width: 20%;
+    border: 0px solid black;
+}
+.male{
+    position: relative;
+    display: inline-block;
+    width:20%;
+    border: 0px solid black;
+}
+#u_0{
+    font-size:20px;
+    color: #1d2129;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+}
+#u_1{
+    font-size: 20px;
+    color: #1d2129;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+}
+.text p{
+    font-size: 12px;
+}
+#superreg{
+    font-size: 19px;
+    width: 40%;
+    height: 30%;
+}
+
+.img-menubar{
+    position: relative;
+    margin-bottom: 0%;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: #3b5998;
+    background: linear-gradient(#4e69a2,#3b5998,50%);
+}
+.logotip{
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-right: 20%;
+}
+.name-pass{
+    color: white;
+    display: inline-block;
+    margin-right: 1%;
+    
+}
+#nm{
+    display: inline-block;
+}
+#ps{
+    display: inline-block;
+}
+#vhod{
+    position: relative;
+    display: inline-block;
+    width: 10%;
+    height: 10%;
+}
+#vh{
+    background: rgb(10, 10 ,240);
+    border-radius: 0px;
+    border: 1px solid blue;
+    color: white;
+    font-size: 100%;
+}
+#vh:hover{
+    background: -webkit-gradient(linear, 0 0, 0 50%, from(#4e69a2),to(#4e69a2),color-stop(0.5,#3b5998));
+    cursor: pointer;
+}
