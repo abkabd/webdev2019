@@ -1,0 +1,52 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px auto;
+    
+    height: 40px;
+    width: 100%;
+
+    vertical-align: middle;
+}
+
+main {
+    text-align: center;
+}
+
+.done {
+    color: blue;
+    text-decoration-line: line-through;
+}
+
+.undone {
+    color: black;
+    text-decoration-line: none;
+}
+
+.div {
+    border: 1px solid black;
+    padding: 3% auto;
+    margin: 1% auto;
+    background-color: antiquewhite;
+    height: 30px;
+    width: 50%;
+    position: relative;
+}
+
+.div * {
+    position: relative;
+    top: 15%;
+}
+.checkbox {
+    float: left;
+}
+
+.btn {
+    float: right;
+    margin: auto 10px;
+}
