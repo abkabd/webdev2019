@@ -1,0 +1,10 @@
+from math import sqrt
+x = int(input())
+cnt = 0
+for i in range(1, sqrt(x).__int__()+1):
+    if x % i == 0:
+        cnt += 1
+        if i != x/i:
+            cnt += 1
+print(cnt)
+
